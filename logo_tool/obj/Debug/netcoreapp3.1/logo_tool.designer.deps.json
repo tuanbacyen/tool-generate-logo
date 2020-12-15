@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Magick.NET-Q16-AnyCPU/7.22.2.2": {
+        "dependencies": {
+          "Magick.NET.Core": "5.2.2"
+        },
+        "runtime": {
+          "lib/netstandard20/Magick.NET-Q16-AnyCPU.dll": {
+            "assemblyVersion": "7.22.2.0",
+            "fileVersion": "7.22.2.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-musl-x64/native/Magick.Native-Q16-x64.dll.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q16-x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "7.0.10.43"
+          },
+          "runtimes/win-x86/native/Magick.Native-Q16-x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "7.0.10.43"
+          }
+        }
+      },
+      "Magick.NET.Core/5.2.2": {
+        "runtime": {
+          "lib/netstandard20/Magick.NET.Core.dll": {
+            "assemblyVersion": "5.2.2.0",
+            "fileVersion": "5.2.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Magick.NET-Q16-AnyCPU/7.22.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DEstqiyOT7o4ErL+OPfpo8hI6uWKODsPNlcq9VYP1J3ySForaH1vBKgQa4cNDub+VAJa6TMaSbecKhX46MMbLQ==",
+      "path": "magick.net-q16-anycpu/7.22.2.2",
+      "hashPath": "magick.net-q16-anycpu.7.22.2.2.nupkg.sha512"
+    },
+    "Magick.NET.Core/5.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ew74jEInuGuZTupa3Svy696VkcAH8tp9Xbaw+FiKfDygze/GnpsadCgu2WyIgUu5fk+pBr2Bmd5W+Xk3seP/g==",
+      "path": "magick.net.core/5.2.2",
+      "hashPath": "magick.net.core.5.2.2.nupkg.sha512"
+    }
+  }
+}
