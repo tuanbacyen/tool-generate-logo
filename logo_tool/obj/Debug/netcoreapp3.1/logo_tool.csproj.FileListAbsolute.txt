@@ -4,7 +4,6 @@ C:\Users\tuanb\source\repos\logo_tool\logo_tool\bin\Debug\netcoreapp3.1\logo_too
 C:\Users\tuanb\source\repos\logo_tool\logo_tool\bin\Debug\netcoreapp3.1\logo_tool.runtimeconfig.dev.json
 C:\Users\tuanb\source\repos\logo_tool\logo_tool\bin\Debug\netcoreapp3.1\logo_tool.dll
 C:\Users\tuanb\source\repos\logo_tool\logo_tool\bin\Debug\netcoreapp3.1\logo_tool.pdb
-C:\Users\tuanb\source\repos\logo_tool\logo_tool\obj\Debug\netcoreapp3.1\logo_tool.csprojAssemblyReference.cache
 C:\Users\tuanb\source\repos\logo_tool\logo_tool\obj\Debug\netcoreapp3.1\logo_tool.AssemblyInfoInputs.cache
 C:\Users\tuanb\source\repos\logo_tool\logo_tool\obj\Debug\netcoreapp3.1\logo_tool.AssemblyInfo.cs
 C:\Users\tuanb\source\repos\logo_tool\logo_tool\obj\Debug\netcoreapp3.1\logo_tool.dll
@@ -22,3 +21,4 @@ C:\Users\tuanb\source\repos\logo_tool\logo_tool\bin\Debug\netcoreapp3.1\runtimes
 C:\Users\tuanb\source\repos\logo_tool\logo_tool\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Magick.Native-Q16-x64.dll
 C:\Users\tuanb\source\repos\logo_tool\logo_tool\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Magick.Native-Q16-x86.dll
 C:\Users\tuanb\source\repos\logo_tool\logo_tool\obj\Debug\netcoreapp3.1\logo_tool.csproj.CopyComplete
+C:\Users\tuanb\source\repos\logo_tool\logo_tool\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

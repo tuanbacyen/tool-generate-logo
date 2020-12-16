@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5Hqn8Me1znt90y6Ifm5xXw0eG6epKR5lK5OUIA2HV5rJhuAxhLskoQzE1m6RfhLbGXgSYXvw0/fTAG702R78Ng==",
+  "dgSpecHash": "nzRHI+nnK9lYUDiZIPw7zf+Fms144LY7dHo2/uBOYczUMSE/NHvGsLXsuMfGB8TJJAMIuwsZ8jHhDVi5f/Ls5A==",
   "success": true,
   "projectFilePath": "C:\\Users\\tuanb\\source\\repos\\logo_tool\\logo_tool\\logo_tool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tuanb\\.nuget\\packages\\magick.net-q16-anycpu\\7.22.2.2\\magick.net-q16-anycpu.7.22.2.2.nupkg.sha512",
     "C:\\Users\\tuanb\\.nuget\\packages\\magick.net.core\\5.2.2\\magick.net.core.5.2.2.nupkg.sha512",
-    "C:\\Users\\tuanb\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\tuanb\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\tuanb\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

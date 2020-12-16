@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.lbl_logo = new System.Windows.Forms.Label();
@@ -37,26 +38,20 @@
             this.button4 = new System.Windows.Forms.Button();
             this.lbl_hand = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
-            this.lbl_result_folder = new System.Windows.Forms.Label();
+            this.lbl_point = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.lbl_result = new System.Windows.Forms.Label();
-            this.rd_600 = new System.Windows.Forms.RadioButton();
-            this.gr_size = new System.Windows.Forms.GroupBox();
-            this.rd_1000 = new System.Windows.Forms.RadioButton();
-            this.rd_800 = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.lbl_result_folder = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
-            this.cb_style_resize = new System.Windows.Forms.CheckBox();
-            this.rd_default = new System.Windows.Forms.RadioButton();
-            this.gr_size.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 215);
+            this.button2.Location = new System.Drawing.Point(12, 245);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 4;
@@ -70,7 +65,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 23);
             this.button1.TabIndex = 5;
-            this.button1.Text = "Select logo file";
+            this.button1.Text = "Chọn file logo";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -96,7 +91,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(109, 23);
             this.button3.TabIndex = 8;
-            this.button3.Text = "Select yoda file";
+            this.button3.Text = "Chọn file yoda";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -114,7 +109,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(109, 23);
             this.button4.TabIndex = 10;
-            this.button4.Text = "Select bottle file";
+            this.button4.Text = "Chọn file chai";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -132,17 +127,17 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(109, 23);
             this.button5.TabIndex = 12;
-            this.button5.Text = "Select hand file";
+            this.button5.Text = "Chọn file tay";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // lbl_result_folder
+            // lbl_point
             // 
-            this.lbl_result_folder.AutoSize = true;
-            this.lbl_result_folder.Location = new System.Drawing.Point(127, 172);
-            this.lbl_result_folder.Name = "lbl_result_folder";
-            this.lbl_result_folder.Size = new System.Drawing.Size(0, 15);
-            this.lbl_result_folder.TabIndex = 15;
+            this.lbl_point.AutoSize = true;
+            this.lbl_point.Location = new System.Drawing.Point(127, 172);
+            this.lbl_point.Name = "lbl_point";
+            this.lbl_point.Size = new System.Drawing.Size(0, 15);
+            this.lbl_point.TabIndex = 15;
             // 
             // button6
             // 
@@ -150,61 +145,18 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(109, 23);
             this.button6.TabIndex = 14;
-            this.button6.Text = "Select result folder";
+            this.button6.Text = "Chọn file point";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // lbl_result
             // 
             this.lbl_result.AutoSize = true;
-            this.lbl_result.Location = new System.Drawing.Point(102, 219);
+            this.lbl_result.Location = new System.Drawing.Point(102, 249);
             this.lbl_result.Name = "lbl_result";
             this.lbl_result.Size = new System.Drawing.Size(84, 15);
             this.lbl_result.TabIndex = 16;
             this.lbl_result.Text = "File result path";
-            // 
-            // rd_600
-            // 
-            this.rd_600.AutoSize = true;
-            this.rd_600.Location = new System.Drawing.Point(6, 41);
-            this.rd_600.Name = "rd_600";
-            this.rd_600.Size = new System.Drawing.Size(43, 19);
-            this.rd_600.TabIndex = 17;
-            this.rd_600.Text = "600";
-            this.rd_600.UseVisualStyleBackColor = true;
-            // 
-            // gr_size
-            // 
-            this.gr_size.Controls.Add(this.rd_default);
-            this.gr_size.Controls.Add(this.rd_1000);
-            this.gr_size.Controls.Add(this.rd_800);
-            this.gr_size.Controls.Add(this.rd_600);
-            this.gr_size.Location = new System.Drawing.Point(516, 37);
-            this.gr_size.Name = "gr_size";
-            this.gr_size.Size = new System.Drawing.Size(133, 116);
-            this.gr_size.TabIndex = 18;
-            this.gr_size.TabStop = false;
-            this.gr_size.Text = "Size resize";
-            // 
-            // rd_1000
-            // 
-            this.rd_1000.AutoSize = true;
-            this.rd_1000.Location = new System.Drawing.Point(6, 91);
-            this.rd_1000.Name = "rd_1000";
-            this.rd_1000.Size = new System.Drawing.Size(49, 19);
-            this.rd_1000.TabIndex = 19;
-            this.rd_1000.Text = "1000";
-            this.rd_1000.UseVisualStyleBackColor = true;
-            // 
-            // rd_800
-            // 
-            this.rd_800.AutoSize = true;
-            this.rd_800.Location = new System.Drawing.Point(6, 66);
-            this.rd_800.Name = "rd_800";
-            this.rd_800.Size = new System.Drawing.Size(43, 19);
-            this.rd_800.TabIndex = 18;
-            this.rd_800.Text = "800";
-            this.rd_800.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -239,48 +191,33 @@
             this.radioButton3.Text = "600 x 600";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
+            // lbl_result_folder
+            // 
+            this.lbl_result_folder.AutoSize = true;
+            this.lbl_result_folder.Location = new System.Drawing.Point(127, 211);
+            this.lbl_result_folder.Name = "lbl_result_folder";
+            this.lbl_result_folder.Size = new System.Drawing.Size(0, 15);
+            this.lbl_result_folder.TabIndex = 18;
+            // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(546, 211);
+            this.button7.Location = new System.Drawing.Point(12, 207);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "Clear";
+            this.button7.Size = new System.Drawing.Size(109, 23);
+            this.button7.TabIndex = 17;
+            this.button7.Text = "Chọn folder";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // cb_style_resize
-            // 
-            this.cb_style_resize.AutoSize = true;
-            this.cb_style_resize.Location = new System.Drawing.Point(516, 12);
-            this.cb_style_resize.Name = "cb_style_resize";
-            this.cb_style_resize.Size = new System.Drawing.Size(133, 19);
-            this.cb_style_resize.TabIndex = 20;
-            this.cb_style_resize.Text = "Auto resize by width";
-            this.cb_style_resize.UseVisualStyleBackColor = true;
-            // 
-            // rd_default
-            // 
-            this.rd_default.AutoSize = true;
-            this.rd_default.Checked = true;
-            this.rd_default.Location = new System.Drawing.Point(6, 17);
-            this.rd_default.Name = "rd_default";
-            this.rd_default.Size = new System.Drawing.Size(63, 19);
-            this.rd_default.TabIndex = 20;
-            this.rd_default.TabStop = true;
-            this.rd_default.Text = "Default";
-            this.rd_default.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(671, 262);
-            this.Controls.Add(this.cb_style_resize);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.gr_size);
-            this.Controls.Add(this.lbl_result);
+            this.ClientSize = new System.Drawing.Size(671, 291);
             this.Controls.Add(this.lbl_result_folder);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.lbl_result);
+            this.Controls.Add(this.lbl_point);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.lbl_hand);
             this.Controls.Add(this.button5);
@@ -292,11 +229,10 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.gr_size.ResumeLayout(false);
-            this.gr_size.PerformLayout();
+            this.Text = "Render";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -314,20 +250,15 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label lbl_hand;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label lbl_result_folder;
+        private System.Windows.Forms.Label lbl_point;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label lbl_result;
-        private System.Windows.Forms.RadioButton rd_600;
-        private System.Windows.Forms.GroupBox gr_size;
-        private System.Windows.Forms.RadioButton rd_1000;
-        private System.Windows.Forms.RadioButton rd_800;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.CheckBox style_resize;
-        private System.Windows.Forms.CheckBox cb_style_resize;
-        private System.Windows.Forms.RadioButton rd_default;
+        private System.Windows.Forms.Label lbl_result_folder;
+        private System.Windows.Forms.Button button7;
     }
 }
 
